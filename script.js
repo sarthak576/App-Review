@@ -8,7 +8,6 @@ emoji.addEventListener('click',(e)=>{
 
     textarea.classList.add('textarea--active'); 
     btn.classList.add('btn--active'); 
-
 })
 
 container.addEventListener('mouseleave',()=>{

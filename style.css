@@ -5,17 +5,18 @@
 }
 
 body{
+   
     font-family: sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eee;
+    background-color: rgba(15, 13, 13, 0.791);
 }
 
 .container{
     width: 22rem;
-    background-color: #521262;
+    background-color: rgb(186,12,12);
     border-radius: .5rem;
     box-shadow: 0 0 2rem rgba(0,0,0,.3);
     overflow: hidden;
@@ -48,6 +49,7 @@ margin-left: 1rem ;
 .emoji>div{
     cursor: pointer;
     transition: transform .2s ease-in;
+   
 }
 
 .emoji>div:hover{
@@ -57,7 +59,7 @@ margin-left: 1rem ;
 textarea{
     width: 100%;
     display: block;
-    background-color: rgb(59,9,59);
+    background-color: rgb(120,9,9);
  color: #eee;
  border: none;
  resize: none;
@@ -79,7 +81,7 @@ transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
     color: #eee;
     padding: .4rem 1rem;
     border-radius: 4px;
-    background-color: purple;
+    background-color: #df0707;
     position: absolute;
     right: .5rem;
     bottom: .5rem;
@@ -89,3 +91,4 @@ transition: all .6s cubic-bezier(0.075, 0.82, 0.165, 1);
 .btn--active{
     display: inline-block;
 }
+
